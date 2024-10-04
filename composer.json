@@ -1,0 +1,15 @@
+{
+  "require": {
+    "ext-readline": "*",
+    "php-ds/php-ds": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ohce\\": "src/",
+      "Test\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.3"
+  }
+}
